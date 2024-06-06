@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rasad Regmi | Contact</title>
+    <link rel="icon" href="Circle Logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header>
+        <div class='nav-links'>
+            <ul>
+                <li><a href='Home.html'>Home</a></li>
+                <li><a href='About.html'>About Us</a></li>
+                <li class="active"><a href='#'> Contact</a></li>
+                <li><a href='http://localhost/WT%20Project%20(Semester%202)/Feedback.php'>Feedback</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="grid">
+                <div class="content">
+                    <h1>Contact Me</h1>
+                    <p>Lets discuss your query now!</p>
+                </div>
+                <div class="form">
+                    <form action="Output.html" onsubmit="return validate()">
+                        <div class="flex">
+                            <input type="text"  id="Name" placeholder="Your Name" autocomplete="off">
+                        </div>
+                        <input type="text"  id="Email" placeholder="Your Email *" autocomplete="off">
+                        <p id="emailError"></p>
+                        <textarea  id="Message" cols="30" rows="8" placeholder="Your Message *" autocomplete="off"></textarea>
+                        <p id="messageError"></p>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<body>
+    <footer>
+        <div class="footer-content">
+            <p>Social Links</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/rasad.regmi/" target="_blank"><i class="fa fa-facebook"
+                            aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/regmi_rasad/" target="_blank"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2023. Designed by <span>Rasad</span></p>
+        </div>
+    </footer>
+</body>
+
+<script src="Contact.js"></script>
+
+</html>
